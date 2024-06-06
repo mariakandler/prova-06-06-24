@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de média</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Calculador de média</h1>
+    <h2>Preencha suas informações:</h2>
+
+    <section id="form-table">
+    <div id="form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name">
+        <br>
+        <label for="register">Matrícula:</label>
+        <input type="text" id="register">
+        <br>
+        <label for="gradeOne">Nota 1:</label>
+        <input type="text" id="gradeOne">
+        <br>
+        <label for="gradeTwo">Nota 2:</label>
+        <input type="text" id="gradeTwo">
+        <br>
+        <button id="sendBtn" onclick="send()">Enviar</button>
+    </div>
+    <div id="tableDiv">
+        <table id="finalTable">
+            <th>
+                <tr>
+                <td>Nome</td>
+                <td>Matrícula</td>
+                <td>Nota 1</td>
+                <td>Nota 2</td>
+                <td>Média</td>
+                <td>Situação</td>
+                </tr>
+            </th>
+        </table>
+    </div>
+</section>
+</body>
+</html>
